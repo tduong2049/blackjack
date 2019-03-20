@@ -1,0 +1,18 @@
+plugins {
+	id 'org.jetbrains.kotlin.jvm' version '1.3.21'
+}
+
+apply plugin: 'kotlin'
+apply plugin: 'application'
+
+mainClassName = 'BlackjackKt'
+
+defaultTasks 'run'
+
+repositories {
+ 	mavenCentral()
+}
+
+dependencies {
+	compile "org.jetbrains.kotlin:kotlin-stdlib:1.3.21"
+}

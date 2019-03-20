@@ -1,0 +1,1 @@
+class Card(internal val name: String, internal var value: Int)
