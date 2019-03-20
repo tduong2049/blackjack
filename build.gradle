@@ -9,6 +9,10 @@ mainClassName = 'BlackjackKt'
 
 defaultTasks 'run'
 
+run {
+	standardInput = System.in
+}
+
 repositories {
  	mavenCentral()
 }
